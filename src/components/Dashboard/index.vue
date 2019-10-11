@@ -1,0 +1,22 @@
+<template>
+    <div class="container dashboard_container">
+        <div class="admin_nav">
+            <ul>
+                <li><router-link to="/dashboard/add_posts">Add posts</router-link></li>
+                <li><router-link to="/dashboard/posts_list">Manage posts</router-link></li>
+            </ul>
+        </div>
+        <router-view/>
+    </div>
+</template>
+
+<style scoped>
+
+    /* @media (max-width: 991.98px) {
+        .dashboard_container .admin_nav ul {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+    } */
+</style>
